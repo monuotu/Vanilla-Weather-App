@@ -14,26 +14,33 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <h1>Beaverton, ON, CA</h1>
-        <ul>
-          <li>Sunday 3:00pm</li>
-          <li>Cloudy</li>
-        </ul>
-        <div class="row">
-          <div class="col-md-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-              alt="Cloudy"
-            />
-            12°C | °F
-          </div>
-          <div class="col-md-6">
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="overview">
+            <h1>Beaverton, ON, CA</h1>
             <ul>
-              <li>Precipitation: 0%</li>
-              <li>Humidity: 73%</li>
-              <li>Wind: 2 km/h</li>
+              <li>Sunday 3:00pm</li>
+              <li>Cloudy</li>
             </ul>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="d-flex weather-temperature">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+                  alt="Cloudy"
+                />
+                <strong>12</strong
+                ><span class="units">°C | <a href="#"> °F</a></span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li>Precipitation: 0%</li>
+                <li>Humidity: 73%</li>
+                <li>Wind: 2 km/h</li>
+              </ul>
+            </div>
           </div>
         </div>
         <small
