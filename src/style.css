@@ -25,8 +25,8 @@ li {
   text-align: left;
 }
 
-li::first-letter{
-    text-transform: capitalize;
+li::first-letter {
+  text-transform: capitalize;
 }
 a {
   text-decoration: none;
@@ -63,4 +63,13 @@ a {
   position: relative;
   font-size: 16px;
   top: 0px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active :hover {
+  text-decoration: none;
 }
